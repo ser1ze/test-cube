@@ -28,7 +28,7 @@ pmremGenerator.compileEquirectangularShader();
 const rgbeLoader = new RGBELoader();
 rgbeLoader.setDataType(THREE.FloatType);
 rgbeLoader.load(
-  "./textures/night.hdr",
+  "public/textures/night.hdr",
   function (texture) {
     console.log("HDR текстура загружена:", texture);
     const envMap = pmremGenerator.fromEquirectangular(texture).texture;
@@ -50,7 +50,7 @@ rgbeLoader.load(
 // Загрузка нормальной карты
 const textureLoader = new THREE.TextureLoader();
 const normalMap = textureLoader.load(
-  "./textures/glass.jpg",
+  "public/textures/glass.jpg",
   function (texture) {
     console.log("Normal map загружена:", texture);
     texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
