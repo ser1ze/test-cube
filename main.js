@@ -52,17 +52,17 @@ rgbeLoader.load(
 );
 
 const normalMapPaths = [
-  "./textures/glassBlocks001.jpg",
-  "./textures/glass.jpg",
-  "./textures/glassBlocks002.jpg",
-  "./textures/glassPattern001.jpg",
-  "./textures/glassPattern002.jpg",
-  "./textures/glassStained001.jpg",
-  "./textures/glassVintage001.jpg",
-  "./textures/glassWindow002.jpg",
-  ".textures/glassWindow003.jpg",
-  "./textures/glassWindow004.jpg",
-  "./textures/woodWindow001.jpg",
+  "public/textures/glassBlocks001.jpg",
+  "public/textures/glass.jpg",
+  "public/textures/glassBlocks002.jpg",
+  "public/textures/glassPattern001.jpg",
+  "public/textures/glassPattern002.jpg",
+  "public/textures/glassStained001.jpg",
+  "public/textures/glassVintage001.jpg",
+  "public/textures/glassWindow002.jpg",
+  "public/textures/glassWindow003.jpg",
+  "public/textures/glassWindow004.jpg",
+  "public/textures/woodWindow001.jpg",
 ];
 
 function loadAssetsAndCreateScene() {
